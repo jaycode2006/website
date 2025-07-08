@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JayCode Studio</title>
+  <style>
+    body {
+      font-family: serif;
+      background-image: url('background.png');
+      background-attachment: fixed;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: blue;
+      border-radius: 20px;
+      padding: 10px 2%;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+
+    header h1 {
+      margin-left: 15px;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: yellow;
+    }
+
+    .section {
+      background-color: green;
+      border-radius: 20px;
+      padding: 15px;
+      margin: 20px 10px;
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
+    .form-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .form-section input[type="email"] {
+      width: 90%;
+      max-width: 400px;
+      height: 30px;
+      margin-top: 10px;
+      padding: 5px;
+      border-radius: 8px;
+      border: none;
+    }
+
+    .form-section button {
+      background-color: red;
+      color: white;
+      width: 140px;
+      height: 45px;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 15px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .form-section button:hover {
+      background-color: darkred;
+    }
+
+    footer {
+      background-color: blue;
+      border-radius: 20px;
+      padding: 15px;
+      text-align: center;
+      margin: 20px 10px 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="my_logo.jpg" alt="JayCode Studio Logo" />
+    <h1>JayCode Studio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home" style="color:red;">Home</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="section">
+    <h2>Introduction</h2>
+    <p>Welcome to JayCode Studio! On this website, you’ll learn more about me and my profession. You can also request a personal or business website, and find ways to contact me easily.</p>
+  </div>
+
+  <div class="section">
+    <h2>About Me</h2>
+    <p>My name is Jay Code, and I am the CEO of JayCode Studio. I am a programmer and an expert website developer.</p>
+    <p>I specialize in the following technologies:</p>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+  </div>
+
+  <div class="section form-section">
+    <h2>Subscribe</h2>
+    <p>Enter your email below to receive updates and news from JayCode Studio.</p>
+    <form action="#" method="post">
+      <label for="email"><b>Email:</b></label>
+      <input type="email" id="email" name="email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+
+  <footer>
+    <p><strong>&copy; 2025 JayCode Studio. All rights reserved.</strong></p>
+  </footer>
+
+</body>
+</html>
